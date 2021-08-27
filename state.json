@@ -1,0 +1,79 @@
+{
+  "accounts": [
+    {
+      "id": 1001,
+      "title": "Расчётный счёт",
+      "number": "40817810XXXXXXX1001",
+      "currency": "rub",
+      "balance": 99999.99
+    },
+    {
+      "id": 1002,
+      "title": "Текущий счёт",
+      "number": "40817810XXXXXXX1002",
+      "currency": "rub",
+      "balance": 99999.99,
+      "cards": [
+        {
+          "id": 2001,
+          "title": "VISA Rewards Noname",
+          "type": "VISA",
+          "number": "4779 86** **** 0001"
+        },
+        {
+          "id": 2002,
+          "title": "VISA #MOZHNOVSE Digital",
+          "type": "VISA",
+          "number": "4779 86** **** 0002"
+        }
+      ]
+    },
+    {
+      "id": 1003,
+      "title": "Расчётный счёт",
+      "number": "40817840XXXXXXX1003",
+      "currency": "usd",
+      "balance": 999.99
+    },
+    {
+      "id": 1004,
+      "title": "Расчётный счёт",
+      "number": "40817978XXXXXXX1001",
+      "currency": "eur",
+      "balance": 999.99
+    }
+  ],
+  "deposits": [
+    {
+      "id": 3001,
+      "title": "\"150 лет надёжности\"",
+      "finish": "10.11.2021",
+      "currency": "rub",
+      "balance": 500000
+    }
+  ],
+  "templates": [
+    {
+      "id": 4001,
+      "title": "Пополнение (Сотовая связь)",
+      "amount": 999999
+    }
+  ],
+  "history": [
+    {
+      "id": 99,
+      "title": "Открытие вклада \"150 лет надёжности\"",
+      "amount": 999999
+    },
+    {
+      "id": 98,
+      "title": "Перевод частному лицу в другой банк",
+      "amount": -1000
+    },
+    {
+      "id": 97,
+      "title": "Мегафон (Мобильная связь)",
+      "amount": -1000
+    }
+  ]
+}
